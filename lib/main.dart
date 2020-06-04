@@ -47,6 +47,8 @@ void main() async {
     // (ie. OneSignal.setEmail(email) is called and the user gets registered
   });
 
+  print("starting onesignal");
+
   runApp(MyApp());
 }
 
